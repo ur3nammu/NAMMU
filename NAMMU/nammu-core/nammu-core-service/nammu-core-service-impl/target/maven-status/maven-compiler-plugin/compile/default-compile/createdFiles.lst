@@ -1,0 +1,5 @@
+gz\vin\nammu\core\service\DateDataFilter.class
+gz\vin\nammu\core\service\IntegerDataFilter.class
+gz\vin\nammu\core\service\BooleanDataFilter.class
+gz\vin\nammu\core\service\StringDataFilter.class
+gz\vin\nammu\core\service\BigDecimalDataFilter.class

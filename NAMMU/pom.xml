@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>gz.vin</groupId>
+	<artifactId>NAMMU</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>The Namu Development Framework</name>
+
+	<properties>
+		<commons.lang3.version>3.0</commons.lang3.version>
+		<commons.collections.version>3.2.2</commons.collections.version>
+		<commons.beanutils.version>1.9.2</commons.beanutils.version>
+	</properties>
+
+	<modules>
+		<module>nammu-zk-component</module>
+		<module>nammu-commons</module>
+		<module>nammu-test</module>
+		<module>nammu-core</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons.lang3.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>${commons.collections.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>${commons.beanutils.version}</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,16 @@
+<language-addon>
+	<addon-name>nammu-zk-component</addon-name>
+	<language-name>xul/html</language-name>
+
+	<component>
+		<component-name>datagrid</component-name>
+		<component-class>gz.vin.nammu.zk.component.DataGrid</component-class>
+		<extends>grid</extends>
+	</component>
+	
+	<component>
+		<component-name>datacolumn</component-name>
+		<component-class>gz.vin.nammu.zk.component.DataColumn</component-class>
+		<extends>column</extends>
+	</component>
+</language-addon>
