@@ -10,7 +10,7 @@
 	<name>nammu-zk-component</name>
 
 	<properties>
-		<zk.version>8.0.0</zk.version>
+		<zk.version>7.0.3</zk.version>
 	</properties>
 
 	<repositories>
